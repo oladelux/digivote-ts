@@ -11,7 +11,7 @@ interface Props {
 const CreateBallot: React.VFC<Props> = ({path}) => {
 
    const { title } = getPageMetadata(Pages.CREATE_BALLOT)
-
+   
    return (
       <Layout title= { title }>
          <CreateBallotTemplate />

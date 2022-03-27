@@ -14,9 +14,14 @@ export const getPageMetadata = (page: PageType) => {
    title: 'Vote | Digivote - Explore new ways to VOTE',
  }
 
+ const dashboardMetaData = {
+   title: 'Vote | Digivote - Explore new ways to VOTE',
+ }
+
   return {
     LANDING_PAGE: landingPageMetaData,
     CREATE_BALLOT: createBallotMetaData,
     VOTE: voteMetaData,
+    DASHBOARD: dashboardMetaData
   }[page]
 }

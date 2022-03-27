@@ -1,1 +1,1 @@
-export type Routes = '/' | '/create-ballot' | '/vote'
+export type Routes = '/' | '/create-ballot' | '/vote' | '/dashboard'

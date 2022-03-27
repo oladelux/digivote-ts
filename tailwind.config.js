@@ -9,10 +9,14 @@ module.exports = {
             subtext: '#A2A1A7',
             loginFormText: '#ACA6A6',
             ffp: '#83B3D2',
-            dashboardBg: '#F2F2F2',
+            dashboardBg: '#F2F2F2'
           },
+          width: {
+            45: '45%',
+          },
+          height: {},
           backgroundImage: {
-            'landingPage': "url('/public/static/images/election.png')",
+            'landingPage': "url('./static/images/election.png')",
           },
       },
    },

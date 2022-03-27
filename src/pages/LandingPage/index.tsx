@@ -12,7 +12,7 @@ const LandingPage: React.VFC<Props> = ({path}) => {
    const { title } = getPageMetadata(Pages.LANDING_PAGE)
 
    return (
-      <Layout title = {title}>
+      <Layout title = {title} className = "bg-white">
          <LandingPageTemplate />
       </Layout>
    )

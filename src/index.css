@@ -9,13 +9,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f7;
 }
 
-#root, .App, main {
+#root, html, body, body #root>div, .App, main {
    height: 100%;
  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.landingCSS {
+   height: calc(100vh - 93.58px);
 }
